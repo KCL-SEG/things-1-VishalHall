@@ -1,9 +1,8 @@
 """Tests for the solution of your exercise."""
 """DO NOT CHANGE THIS FILE!"""
-
+from things.models import Thing
 from django.core.exceptions import ValidationError
 from django.test import TestCase
-from things.models import Thing
 
 class BaseModelTest(TestCase):
     def setUp(self):
